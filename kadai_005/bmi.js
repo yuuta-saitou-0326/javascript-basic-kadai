@@ -1,6 +1,8 @@
-let BMI;
+let weight = 68;
 
-BMI = (68 / (1.7 * 1.7));
+let height = 1.7;
+
+BMI = (weight / (height * height));
 
 console.log(BMI);
 
