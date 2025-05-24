@@ -1,4 +1,4 @@
 const kadaiSuuti = (suuti) => {
-  console.log(suuti * suuti);
+  return suuti * suuti;
 }
-kadaiSuuti(10);
+console.log(kadaiSuuti(10));
